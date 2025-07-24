@@ -22,7 +22,7 @@ img.emoji {
 
 @font-face {
     font-family: "Astra";
-    src: url(http://localhost/signageworks.in/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(http://localhost/signageworks.in/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(http://localhost/signageworks.in/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");
+        src: url(/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
