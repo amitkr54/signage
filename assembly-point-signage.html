@@ -80,6 +80,13 @@ flexibility(document.documentElement);
 	<!-- HFCM by 99 Robots - Snippet # 1: Google Ads -->
 	<link rel='stylesheet' id='common-styles-css' href='wp-content/common-styles.css' media='all' />
     <link rel="icon" type="image/png" href="favicon.png">
+
+	<style>
+		img { height: auto !important; max-width: 100%; }
+		.elementor-image img, .ast-single-post .entry-content img, .wp-block-image img {
+			object-fit: cover;
+		}
+	</style>
 </head>
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope"
 	class="wp-singular page-template-default page page-id-75 wp-custom-logo wp-theme-astra ast-desktop ast-page-builder-template ast-no-sidebar astra-2.6.2 ast-header-custom-item-inside ast-single-post ast-inherit-site-logo-transparent elementor-default elementor-kit-117 elementor-page elementor-page-75">
