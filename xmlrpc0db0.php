@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>http://localhost/signageworks.in/</homePageLink>
+		<homePageLink>https://signageworks.in/</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="http://localhost/signageworks.in/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="http://localhost/signageworks.in/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="http://localhost/signageworks.in/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="http://localhost/signageworks.in/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="http://localhost/signageworks.in/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://signageworks.in/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://signageworks.in/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://signageworks.in/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://signageworks.in/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://signageworks.in/wp-json/" />
 			</apis>
 	</service>
 </rsd>
