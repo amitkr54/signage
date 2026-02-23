@@ -38,10 +38,23 @@ img.emoji {
 
 @font-face {
     font-family: "Astra";
-        src: url(/wp-content/themes/astra/assets/fonts/astra.woff) format("woff"),url(/wp-content/themes/astra/assets/fonts/astra.ttf) format("truetype"),url(/wp-content/themes/astra/assets/fonts/astra.svg#astra) format("svg");
+    src: url(themes/astra/assets/fonts/astra.woff) format("woff"),
+         url(themes/astra/assets/fonts/astra.ttf) format("truetype"),
+         url(themes/astra/assets/fonts/astra.svg#astra) format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: fallback;
+}
+
+/* Dropdown Icon Fix */
+.menu-item-has-children > .menu-link::after,
+.ast-menu-toggle::after {
+    font-family: "Astra" !important;
+    content: "\e900" !important;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 0.8em;
+    vertical-align: middle;
 }
 
 .main-header-menu .menu-item:hover > .ast-menu-toggle,
